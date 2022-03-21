@@ -1,0 +1,21 @@
+usregion = "us-east-1"
+accesskey = "ASIARCNRYJADPL44K5PI"
+secretkey = "VJg/ly6DFmhedUXBgcrdr7KSO4QXGNeMo0JyaqjA"
+token = "FwoGZXIvYXdzEMH//////////wEaDO7OQbaHFSSgdYgHHCLMASs5aWVW3xzLgx8phx94nvs1X4fo9U3KZDlrMD1T+8VucMmKiKU6x/pmdgoMAWtFvC9spbdT7CBKDZTGeblHZDohS93EiOYDHsIlmjeT/ccZZWYdVLvMQFLWpwc32OdXohQpLRvJlc+FIS9womyj/SEfa/y73jX+CIUenOETG2nVRO4ui/xT5irF64fp1CsnZKMuDp8b5aTcMO/iIjD9x1DpHIUmGO/R/XVMkKAI/NWtaV5FM+ST3qNkeChcjee8sPms9EN9q+EP9zoj1CjjkO+NBjItFC8UNJch/4HsELHIFJM0CmEVs98qoZlgSJigBTWfTf4l8cQTPPsfmkIg5Omq"
+#Names of resources
+instance_name = "t2.micro"
+vpc_name = ["A","B"]
+igw_name = "Internet Gateway"
+prt_name = ["Public Access Routing Table 1","Public Access Routing Table 2"]
+ws_name = ["webserver-01","webserver-02"]
+psubnet_name = ["subnet-public-1","subnet-public-2"]
+prvsubnet_name = ["subnet-private-1","subnet-private-2"]
+#vpcA_name = "VPC-A"
+vpc_cidr_blockA = "10.0.0.0/16"
+subnet_prefixA = ["10.0.1.0/24", "10.0.3.0/24", "10.0.2.0/24", "10.0.4.0/24"]
+#vpcB_name = "VPC-B"
+vpc_cidr_blockB = "192.168.0.0/16"
+subnet_prefixB = ["192.168.1.0/24", "192.168.3.0/24", "192.168.2.0/24", "192.168.4.0/24"]
+azone = ["us-east-1a", "us-east-1b", "us-east-1c", "us-east-1d"]
+ami-id = "ami-0ed9277fb7eb570c9"
+cidr_block = "0.0.0.0/0"
